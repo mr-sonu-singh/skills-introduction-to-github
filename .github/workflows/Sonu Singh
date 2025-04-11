@@ -1,0 +1,9 @@
+1. Check your current branch
+  git branch
+  The current branch will have an asterisk (*) next to it
+2. Switch to the branch you want to merge into (usually main/master)
+  git checkout main
+3. Merge the other branch into your current branch
+  git merge feature-branch
+
+After that your will see conflicts merge time 
